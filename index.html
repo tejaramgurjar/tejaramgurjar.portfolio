@@ -14,10 +14,11 @@
         .logo-bg-img div{
             height: 100px;
         }
+    
     </style>
   </head>
-  <body>
-        <nav class="navbar navbar-expand-sm navbar-dark " style="background-color: black;">
+  <body class="m-0 p-0">
+        <nav class="navbar navbar-expand-sm navbar-dark " style="background-color: black !important;position: fixed; width:100%;z-index:1">
             <div class="container">
             <a class="navbar-brand" href="#"  style="font-size: 40px;"><b>Tejaram </b><span class="badge badge-danger">Gurjar</span></a>
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarid">
@@ -27,19 +28,19 @@
            <ul class="navbar-nav text-center ml-auto" >
 
             <li class="nav-item" >
-                <a href="" class="nav-link">Home</a>
+                <a href="#home-section" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link">About</a>
+                <a href="#about" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link">Skills</a>
+                <a href="#skills" class="nav-link">Skills</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link">Project</a>
+                <a href="#project" class="nav-link">Project</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link">Experience</a>
+                <a href="#experience" class="nav-link">Experience</a>
             </li>
             <li class="nav-item">
                 <button class="bg-white " ><a href="https://drive.google.com/file/d/1WrGaqocKUCwMSvylKMEIYeCFzBSQrNC7/view?usp=sharing" target="_blank" class="nav-link text-danger">Resume</a></button>
@@ -49,13 +50,13 @@
         </div>
         </div>
         </nav>
-          <section id="home-section" class="container-fluid " style="background-color: black;" >
+          <section id="home-section" class="container-fluid  " style="background-color: black;" >
 
-        <div class="container  ">
+        <div class="container  " >
             <div class="row">
                 <div class="col-xl-5 col-lg-5 col-md-5  col-12 text-center">
             <div class="intro-img">
-                <img src="port-img/introimg.jpg " width="330px" height="450px"   alt="" srcset="">
+                <img src="port-img/introimg.jpg " width="300px" height="400px" style="margin-top: 90px;"  alt="" srcset="">
 
             </div>
         </div>
@@ -82,7 +83,7 @@
     </div>
 
    <br>
-   <section class="portfolio-intro container-fluid bg-light">
+   <section class="portfolio-intro container-fluid bg-light" id="about">
     <div class="container text-center">
      <h2>WELCOME TO MY PORTFOLIO</h>
     </div>
@@ -100,7 +101,7 @@
    </section>
    <br><br>
     
-   <section class="container for-language">
+   <section class="container for-language" id="skills">
       <div>
         <h2 class="text-center">SKILLS</h2>
       </div>
@@ -133,8 +134,8 @@
    </section>
 <br><br>
 
- <section class="container">
-    <h1 class="text-center">PROJECTS</h1>
+ <section class="container" id="project">
+    <h1 class="text-center" >PROJECTS</h1>
 
     <div class="row" style="margin-top: 50px;">
         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 text-center" >
@@ -160,17 +161,17 @@
  </section>
 
  <br><br>
- <h1 class="text-center">EXPERIENCE</h1>
- <section class="Experience bg-secondary"  >
+ <h1 class="text-center" id="experience">EXPERIENCE</h1>
+ <section class="Experience bg-secondary container-fluid py-4 mb-3"   >
     
-      <div class="container" style="margin: 30px;">
+      <div class="container">
         <div class="row" >
             <div class="col-xl-5 col-lg-5 col-md-5 col-md-5 col-sm-5 col-12">
-                <img src="port-img/pexels-life-of-pix-7974.jpg" class="rounded-circle img-hover img-thumbnail " style="margin-bottom: 25px; margin-top: 25px;" width="500px" alt="">
+                <img src="port-img/pexels-life-of-pix-7974.jpg" class="rounded-circle img-hover img-thumbnail " style="margin-bottom: 25px; margin-top: 25px;" width="400px" alt="experience">
 
             </div>
             <div class="col-xl-7 col-lg-7 col-md-7 col-md-7 col-sm-7 col-12 text-center" style="margin-top: 55px;">
-               <a href="https://www.lamentis.in/" target="_blank" class="text-dark" >   <h2>Lamentis Software Pvt.Ltd</h2></a>
+               <a href="https://www.lamentis.in/" target="_blank" class="text-dark" ><h3>Lamentis Software Pvt.Ltd</h3></a>
                 
                <div>
                 <h5 style="margin-top: 40px;">Frontend Development Intern(02/2024 - present)</h5>
@@ -289,7 +290,7 @@
                 
                     <a href="https://github.com/tejaramgurjar"><img src="port-img/github.jpg" width="50px" alt=""></a>
                     <div class="gmail" style="margin-top: 20px;">
-                        <a href=""><img src="port-img/gmail.png" width="20px" alt="" srcset="">tejaram20199@gmail.com</a>
+                        <a href="mailto:tejaram20199@gmail.com"><img src="port-img/gmail.png" width="20px" alt="" srcset="">tejaram20199@gmail.com</a>
                     </div>
                     <div class="Copyright" style="margin-top: 50px;">
                         <p class="text-white"> © 2024 Tejaram Gurjar</p>
